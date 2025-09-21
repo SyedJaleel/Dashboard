@@ -1,0 +1,15 @@
+.task-card {
+  padding: 12px;
+  margin: 8px 0;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  cursor: grab;
+  transition: transform 0.2s ease;
+}
+
+.task-card:active {
+  cursor: grabbing;
+  transform: rotate(2deg);
+}

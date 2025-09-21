@@ -1,0 +1,37 @@
+.task-card {
+  padding: 12px;
+  margin: 8px 0;
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-card p {
+  margin: 0;
+  flex: 1;
+}
+
+.task-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn:hover {
+  color: #007bff;
+}
+
+.delete-btn:hover {
+  color: red;
+}
